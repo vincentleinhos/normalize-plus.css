@@ -5,8 +5,9 @@ elements more consistently and in line with modern standards.
 
 ## Install
 
-[Download the compressed, production standardize.min.css v1.0.0](http://vincentleinhos.com/standardize.min.css).
-[Download the uncompressed, development standardize.css v1.0.0](http://vincentleinhos.com/standardize.css).
+[Download the compressed, production standardize.min.css](http://vincentleinhos.com/standardize.min.css).
+
+[Download the uncompressed, development standardize.css](http://vincentleinhos.com/standardize.css).
 
 Link `standardize(.min).css` inside the head section; no other style should come before this.
 
