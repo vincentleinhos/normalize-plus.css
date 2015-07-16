@@ -1,4 +1,4 @@
-# standardize.css
+# standardize.css<img src="http://vincentleinhos.com/standardize/img/icons/apple-touch-icon.png" alt="standardize.css Logo" align="right">
 
 standardize.css is a customisable CSS file that makes browsers render all
 elements more consistently and in line with modern standards.
