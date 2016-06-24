@@ -1,7 +1,23 @@
-# standardize.css<img src="http://vincentleinhos.com/standardize/img/icons/apple-touch-icon.png" alt="standardize.css Logo" align="right">
+# standardize.css
 
-standardize.css is a customisable CSS file that makes browsers render all
-elements more consistently and in line with modern standards.
+<a href="http://vincentleinhos.com/standardize/"><img
+  src="http://vincentleinhos.com/standardize/img/github.png" alt="standardize.css logo" align="right" style=""></a>
+
+> standardize.css combines the best of CSS **resets** and **normalize**.css in line with modern standards.
+
+[standardize.css](http://vincentleinhos.com/standardize/) is based on
+[normalize.css](https://github.com/necolas/normalize.css) v4.1.1.
+
+## What does it do?
+
+| normalize.css | CSS reset | standardize.css |
+|     :---:     |   :---:   |      :---:      |
+| Preserves useful defaults | **Let you start from scratch** | Mostly like a CSS reset: No predefined rules that are likely to be overwritten anyway. For example, normalize.css: `font-family: sans-serif` *Comment: Why? Once you change the font,.. such lines are unnecessary* |
+| **Corrects bugs and common browser inconsistencies** | - | Same as normalize.css |
+| **Explains what code does** using detailed comments | - | Same as normalize.css |
+| - | - | **Improves text readability and flexibility of elements**. For example, using better font-rendering, `border-box` and making images responsive |
+| - | - | Includes the [**clearfix hack**](http://nicolasgallagher.com/micro-clearfix-hack/) by Nicolas Gallagher |
+| - | - | Use the **compressed** CSS, which is four times smaller, for faster page loads |
 
 ## Install
 
@@ -9,25 +25,17 @@ elements more consistently and in line with modern standards.
 
 [Download the uncompressed, development standardize.css](http://vincentleinhos.com/standardize.css).
 
-Link `standardize(.min).css` inside the head section; no other style should come before this.
-
-## What does it do?
-
-* Improves usability through improved text readability and flexibility of the elements.
-* Due to the reset you decide where you want to start.
-* Corrects bugs and common browser inconsistencies (normalize).
-* Includes the clearfix hack by Nicolas Gallagher.
-* Explains what code does using detailed comments.
-* ~~Normalizes styles for a wide range of elements.~~ No predefined rules that are likely to be overwritten anyway.
+Link to standardize inside the head section; no other style should come before this.
+Fell free to adapt it to your needs.
 
 ## Browser support
 
-* Google Chrome (latest)
-* Mozilla Firefox (latest)
-* Mozilla Firefox ESR
-* Opera (latest)
-* Apple Safari 6+
+* Chrome
+* Firefox (+ ESR)
+* Edge
 * Internet Explorer 8+
+* Safari 6+
+* Opera
 
 ## Acknowledgements
 
