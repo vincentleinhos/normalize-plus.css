@@ -14,9 +14,8 @@
 |     :---:     |   :---:   |      :---:      |
 | Preserves useful defaults | **Let you start from scratch** | Mostly like a CSS reset: No predefined rules that are likely to be overwritten anyway. For example, normalize.css: `font-family: sans-serif` *Comment: Why? Once you change the font,.. such lines are unnecessary* |
 | **Corrects bugs and common browser inconsistencies** | - | Same as normalize.css |
-| **Explains what code does** using detailed comments | - | Same as normalize.css |
 | - | - | **Improves text readability and flexibility of elements**. For example, using better font-rendering, `border-box` and making images responsive |
-| - | - | Includes the [**clearfix hack**](http://nicolasgallagher.com/micro-clearfix-hack/) by Nicolas Gallagher |
+| **Explains what code does** using detailed comments | - | Same as normalize.css |
 | - | - | Use the **compressed** CSS, which is four times smaller, for faster page loads |
 
 ## Install
