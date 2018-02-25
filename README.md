@@ -1,42 +1,29 @@
-# standardize.css
+# ![normalize-plus.css](http://vincentleinhos.com/normalize-plus/img/github.svg)
 
-<a href="http://vincentleinhos.com/standardize/"><img
-  src="http://vincentleinhos.com/standardize/img/github.png" alt="standardize.css logo" align="right" style=""></a>
-
-> standardize.css combines the best of CSS **resets** and **normalize**.css in line with modern standards.
-
-[standardize.css](http://vincentleinhos.com/standardize/) is based on
-[normalize.css](https://github.com/necolas/normalize.css) v4.1.1.
+> [normalize-plus.css](http://vincentleinhos.com/normalize-plus) combines the best of a **CSS reset** and **normalize.css** in line with modern standards. Based on [normalize.css](https://github.com/necolas/normalize.css) v8.0.0.
 
 ## What does it do?
 
-| normalize.css | CSS reset | standardize.css |
-|     :---:     |   :---:   |      :---:      |
-| Preserves useful defaults | **Let you start from scratch** | Mostly like a CSS reset: No predefined rules that are likely to be overwritten anyway. For example, normalize.css: `font-family: sans-serif` *Comment: Why? Once you change the font,.. such lines are unnecessary* |
-| **Corrects bugs and common browser inconsistencies** | - | Same as normalize.css |
-| - | - | **Improves text readability and flexibility of elements**. For example, using better font-rendering, `border-box` and making images responsive |
-| **Explains what code does** using detailed comments | - | Same as normalize.css |
-| - | - | Use the **compressed** CSS, which is four times smaller, for faster page loads |
+1) **Resets elements**, so you can start from scratch.
+2) **Improves element flexibility** and **text readability**.
+3) **Corrects bugs** and common **browser inconsistencies**.
+
+normalize-plus.css has the same comprehensive documentation as normalize.css.
 
 ## Install
 
-[Download the compressed, production standardize.min.css](http://vincentleinhos.com/standardize.min.css).
+[Download the compressed, production normalize-plus.min.css](https://raw.githubusercontent.com/vincentleinhos/normalize-plus.css/master/normalize-plus.min.css).
 
-[Download the uncompressed, development standardize.css](http://vincentleinhos.com/standardize.css).
+[Download the uncompressed, development normalize-plus.css](https://raw.githubusercontent.com/vincentleinhos/normalize-plus.css/master/normalize-plus.css).
 
-Link to standardize inside the head section; no other style should come before this.
+Link the CSS file normalize-plus inside the `<head>` section of your HTML doc. No other style should come before this.
 Fell free to adapt it to your needs.
 
 ## Browser support
 
+* Firefox
 * Chrome
-* Firefox (+ ESR)
 * Edge
-* Internet Explorer 8+
-* Safari 6+
+* Safari 8+
 * Opera
-
-## Acknowledgements
-
-Thankful for normalize.css – a project by [Nicolas Gallagher](https://github.com/necolas),
-co-created with [Jonathan Neal](https://github.com/jonathantneal).
+* IE 10+
