@@ -18,7 +18,7 @@ normalize-plus.css has the same comprehensive documentation as normalize.css
 
 [Download the uncompressed, development normalize-plus.css](https://raw.githubusercontent.com/vincentleinhos/normalize-plus.css/master/normalize-plus.css).
 
-Link the CSS file normalize-plus inside the `<head>` section of your HTML doc. No other style should come before this.
+Link the CSS file normalize-plus.min.css inside the `<head>` section of your HTML doc. No other style should come before this.
 Fell free to adapt it to your needs.
 
 ## Browser support
