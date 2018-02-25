@@ -1,0 +1,413 @@
+/*! normalize-plus.css v8.0.0 | MIT License | vincentleinhos.com/normalize-plus */
+
+/*
+* 1. Reset the area around elements.
+* 2. Make elements ready for flexible layouts.
+*    The size of `padding` and `border` no longer matter, because these
+*    values will be subtracted from the width.
+* 3. Set the font size to a percent of the parent element's font size. This
+*    is a method to manage dynamic resizing of fonts.
+*/
+*,
+*:before,
+*:after {
+  margin: 0; /* 1 */
+  padding: 0; /* 1 */
+  border: 0; /* 1 */
+  -webkit-box-sizing: border-box; /* 2 */
+  -moz-box-sizing: border-box; /* 2 */
+  box-sizing: border-box; /* 2 */
+  font-size: 100%; /* 3 */
+}
+
+/* Document
+========================================================================== */
+
+/*
+* 1. Correct the line height.
+* 2. Prevent adjustments of the font size after orientation changes in iOS
+*    and IE.
+* 3. Force a vertical scrollbar to prevent annoying problems.
+* 4. Improve the font rendering on macOS.
+*    http://maximilianhoffmann.com/posts/better-font-rendering-on-osx
+*/
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  overflow-y: scroll; /* 3 */
+  -webkit-font-smoothing: antialiased; /* 4 */
+  -moz-osx-font-smoothing: grayscale; /* 4 */
+}
+
+/* Grouping content
+========================================================================== */
+
+/*
+* Change the font style to normal (aesthetic reasons).
+*/
+address {
+  font-style: normal;
+}
+
+/*
+* 1. Correct the box sizing in Firefox and set it back in all browsers.
+*    https://stackoverflow.com/a/31524335
+* 2. Correct the overflow in Edge and IE.
+*/
+hr {
+  -webkit-box-sizing: content-box; /* 1 */
+  -moz-box-sizing: content-box; /* 1 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/*
+* Remove the bullet points, because many `ul` elements are not used
+* for enumeration.
+* You could rewrite it to `nav ul`.
+*/
+ul {
+  list-style: none;
+}
+
+/* Text-level semantics
+========================================================================== */
+
+/*
+* 1. Remove the outline for better readability (aesthetic reasons).
+* 2. Remove the gray background on active links in IE 10.
+* 3. Remove the gaps in links in iOS 8+ and Safari 8+.
+*/
+a {
+  outline: 0; /* 1 */
+  background-color: transparent; /* 2 */
+  -webkit-text-decoration-skip: objects; /* 3 */
+}
+
+/*
+* Correct the font weight in Chrome, Edge, and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+* Correct the font size.
+*/
+small {
+  font-size: 80%;
+}
+
+/*
+* 1. Remove the bottom border in Chrome 57-
+* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+* 3. Change the cursor style.
+*/
+abbr[title], dfn[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/*
+* Correct the inheritance and scaling of font size.
+* The double `monospace` is intentional.
+* http://en.wikipedia.org/wiki/User:Davidgothberg/Test59
+*/
+code,
+kbd,
+samp,
+pre {
+  font-family: monospace, monospace;
+}
+
+/*
+* Prevent `sub` and `sup` elements from affecting the line height.
+* http://gist.github.com/413930
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+========================================================================== */
+
+/*
+* Flexible media
+* 1. `!important` to force correct aspect ratio, just in case.
+*/
+img, video {
+  max-width: 100%;
+  height: auto !important; /* 1 */
+}
+audio {
+  width: 100%;
+}
+
+/*
+* Change vertical alignment to middle on media
+* elements (aesthetic reasons).
+*/
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+* Change the fill color to match the text color.
+*/
+svg {
+  fill: currentColor;
+}
+
+/*
+* Hide the overflow in IE.
+*/
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Tabular data
+========================================================================== */
+
+/*
+* Remove the border spacing.
+*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Forms
+========================================================================== */
+
+/*
+* Remove rounded corners on `input` elements (aesthetic reasons).
+*/
+input {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+/*
+* Change the cursor style.
+*/
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+/*
+* Correct the cursor style of increment and decrement buttons in Chrome.
+*/
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+* 1. The search input is not fully stylable by default.
+*    In Chrome and Safari on macOS/iOS you cannot control `font`,
+*    `padding`, `border`, or `background`.
+*    In Chrome and Safari on Windows you cannot control border properly.
+*    It will apply border-width but will only show a border color (which
+*    cannot be controlled) for the outer 1px of that border.
+*    Applying -webkit-appearance: textfield addresses these issues without
+*    removing the benefits of search inputs (e.g. showing past searches).
+*/
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+}
+
+/*
+* Remove the inner padding and cancel button in Chrome and Safari on macOS.
+*/
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+* Correct the placeholders in Chrome, Edge, and Safari.
+*/
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/*
+* Correct font styles not being inherited.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+
+/*
+* Show the overflow in IE.
+* 1. Show the overflow in Edge.
+*/
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/*
+* Remove the inheritance of text transform in Edge, Firefox, and IE.
+* 1. Remove the inheritance of text transform in Firefox.
+*/
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/*
+* 1. Correct the inability to style clickable types in iOS and Safari.
+* 2. Change the cursor style.
+*/
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 1 */
+  cursor: pointer; /* 2 */
+}
+
+/*
+* 1. Set the color for disabled elements back to an average color.
+* 2. Set cursor for disabled elements back to default.
+*/
+[disabled] {
+  color: #777; /* 1 */
+  cursor: default; /* 2 */
+}
+
+/*
+* Remove the inner border and padding in Firefox. This is necessary
+* despite the reset.
+*/
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/*
+* 1. Correct the inability to style clickable types in iOS and Safari.
+* 2. Change font properties to `inherit` in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+* 1. Remove the default vertical scrollbar in IE 10+.
+* 2. Change the resize direction on textareas.
+*/
+textarea {
+  overflow: auto; /* 1 */
+  resize: vertical; /* 2 */
+}
+
+/*
+* Add the correct vertical alignment in Chrome, Firefox, and Opera.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/*
+* 1. Correct the text wrapping in Edge and IE.
+* 2. Correct the color inheritance from `fieldset` elements in IE.
+*/
+legend {
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  white-space: normal; /* 1 */
+  color: inherit; /* 2 */
+}
+
+/* Interactive elements
+========================================================================== */
+
+/*
+* Add the correct display in Edge, IE 10+, and Firefox.
+*/
+details {
+  display: block;
+}
+
+/*
+* Add the correct display.
+*/
+summary {
+  display: list-item;
+}
+
+/* User interaction
+========================================================================== */
+
+/*
+* Improve kerning pairs and ligatures.
+* http://aestheticallyloyal.com/public/optimize-legibility/
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-rendering: optimizeLegibility;
+}
+
+/*
+* 1. Add the correct display in IE 10+.
++ 2. Add the correct display in IE 10.
+*/
+template, /* 1 */
+[hidden] { /* 2 */
+  display: none;
+}
+
+/*
+* Remove the tapping delay on clickable elements.
+* 1. Remove the tapping delay in IE 10.
+*/
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation; /* 1 */
+  touch-action: manipulation;
+}
