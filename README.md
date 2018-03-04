@@ -1,4 +1,4 @@
-# ![normalize-plus.css](http://vincentleinhos.com/normalize-plus/img/github.svg)
+# [normalize-plus.css](http://vincentleinhos.com/normalize-plus/)
 
 > [normalize-plus.css](http://vincentleinhos.com/normalize-plus) combines the best of a **CSS reset** and **normalize.css** in line with modern standards.
 
