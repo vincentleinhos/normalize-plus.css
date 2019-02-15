@@ -2,7 +2,7 @@
 
 > [normalize-plus.css](http://vincentleinhos.com/normalize-plus) combines the best of a **CSS reset** and **normalize.css** in line with modern standards.
 
-Based on [normalize.css](https://github.com/necolas/normalize.css) v8.0.0.
+Based on [normalize.css](https://github.com/necolas/normalize.css) v8.0.1.
 
 ## What does it do?
 
