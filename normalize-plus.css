@@ -1,4 +1,4 @@
-/*! normalize-plus.css v8.0.0 | MIT License | vincentleinhos.com/normalize-plus */
+/*! normalize-plus.css v8.0.1 | MIT License | vincentleinhos.com/normalize-plus */
 
 /*
 * 1. Reset the area around elements.
@@ -70,6 +70,13 @@ hr {
 */
 ul {
   list-style: none;
+}
+
+/*
+* Add the correct display in IE.
+*/
+main {
+  display: block;
 }
 
 /* Text-level semantics
