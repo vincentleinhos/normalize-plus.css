@@ -273,6 +273,17 @@ textarea {
 }
 
 /*
+* Remove styled outline on forms in Chrome.
+*/
+button:focus,
+input:focus,
+optgroup:focus,
+select:focus,
+textarea:focus {
+  outline: 0;
+}
+
+/*
 * Show the overflow in IE.
 * 1. Show the overflow in Edge.
 */
